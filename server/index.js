@@ -26,7 +26,7 @@ rollbar.log('Hello world!')
 
 
 
-app.use('/', express.static(path.join(__dirname, '../client/main.html')))
+app.use('/', express.static(path.join(__dirname, '../client/index.html')))
 app.use(express.static(path.join(__dirname, '../client')))
 
 
